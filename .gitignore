@@ -4,7 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/data
+/images
+/pafes
 # testing
 /coverage
 
