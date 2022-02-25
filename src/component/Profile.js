@@ -9,7 +9,7 @@ const Profile = () => {
     navegate('/')
   }
   return (
-    <div>Profile
+    <div>
 <br/>
 
 <h1>User name ={useremail.user}</h1>

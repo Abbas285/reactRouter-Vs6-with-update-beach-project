@@ -13,11 +13,11 @@
     --mainTransition: all 0.3s linear;
     --mainSpacing: 3px;
     --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 2px 0px rgba(0, 0, 0, 0.5);
   }
   /* globals */
   body {
-    padding-top: 66px;
+    /* padding-top: 66px; */
     color: var(--mainBlack);
     background: var(--mainWhite);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +53,7 @@
     margin-bottom: 1.5em;
   }
   
-  .btn-primary {
+  .btn-primaryS {
     display: inline-block;
     text-decoration: none;
     letter-spacing: var(--mainSpacing);
@@ -65,7 +65,7 @@
     text-transform: uppercase;
     cursor: pointer;
   }
-  .btn-primary:hover {
+  .btn-primaryS:hover {
     background: transparent;
     color: var(--primaryColor);
   }
@@ -109,6 +109,7 @@
   }
   .nav-icon {
     font-size: 1.5rem;
+    margin-left: 10px;
     color: var(--primaryColor);
   }
   .nav-links {
@@ -159,7 +160,8 @@
   .defaultHero,
   .roomsHero {
     min-height: calc(100vh - 66px);
-    background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+    background: url("./images/defaultBcg.jpeg") center/
+    cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

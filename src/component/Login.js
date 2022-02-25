@@ -6,13 +6,11 @@ const Login = () => {
     const navegate=useNavigate()
     const useremail=UseAuth()
 const location=useLocation()
-const redirectdata=location.state.path||'/'
-
+const redirectdata=location.state?.path||'/'
 
     const handlelogin=()=>{
         useremail.login(userdata)
         navegate(redirectdata,{replace:true})
-
     }
   return (
     <div className='mt-5'>

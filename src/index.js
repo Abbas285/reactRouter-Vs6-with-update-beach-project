@@ -4,12 +4,14 @@ import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter} from 'react-router-dom'
 import './index.css'
+import {RoomProvider} from './context'
 ReactDOM.render(
-  <React.StrictMode>
+  <RoomProvider>
     <BrowserRouter>
     <App />
     </BrowserRouter>
-  </React.StrictMode>,
+  </RoomProvider>
+  ,
   document.getElementById('root')
 );
 
